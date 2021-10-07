@@ -2,11 +2,24 @@ import React from 'react';
 
 import './App.css';
 
+function HelloWorld() {
+  return (
+    <div id="hello">
+      Hello Ndev
+    </div>
+    
+  );
+}
+
 function App() {
   return (
     <div >
-      Hello Ndev!
+      This is my componente: <HelloWorld/>
+      <HelloWorld/>
+      <HelloWorld/>
+      <HelloWorld/>
     </div>
+
   );
 }
 
