@@ -2,10 +2,11 @@ import React from 'react';
 
 import './App.css';
 
-function HelloWorld() {
+function HelloWorld(props) {
+  console.log(props)
   return (
     <div id="hello">
-      Hello Ndev
+      {props.mytext}
     </div>
     
   );
@@ -20,13 +21,14 @@ function HelloWorld2() {
   );
 }
 
+
 function App() {
   return (
     <div >
       This is my componente: <HelloWorld/>
-      <HelloWorld/>
-      <HelloWorld/>
-      <HelloWorld/>
+      <HelloWorld mytext="Hello Ndev85"/>
+      <HelloWorld mytext="Hello Piru"/>
+      <HelloWorld mytext="Hello René"/>
       <HelloWorld2/>
       <HelloWorld2/>
     </div>
