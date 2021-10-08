@@ -11,6 +11,15 @@ function HelloWorld() {
   );
 }
 
+function HelloWorld2() {
+  return (
+    <div id="hello2">
+      Hello Ndev
+    </div>
+    
+  );
+}
+
 function App() {
   return (
     <div >
@@ -18,9 +27,12 @@ function App() {
       <HelloWorld/>
       <HelloWorld/>
       <HelloWorld/>
+      <HelloWorld2/>
+      <HelloWorld2/>
     </div>
 
   );
 }
+
 
 export default App;
