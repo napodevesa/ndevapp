@@ -15,7 +15,7 @@ function HelloWorld(props) {
 function HelloWorld2() {
   return (
     <div id="hello2">
-      Hello Ndev
+      Hello Ndev!
     </div>
     
   );
